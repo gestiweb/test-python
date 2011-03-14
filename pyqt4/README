@@ -1,0 +1,25 @@
+En esta carpeta incluyo ejemplos básicos de programas con PyQT4.
+
+Para poder programar con Pyqthon y Qt4 necesitamos los paquetes:
+    - python
+    - python-qt4
+    - qt4-designer
+
+Lista de ejemplos:
+
+    Ejemplo 1:
+        Un programa mínimo que lanza un simple diálogo sin ningún contenido.
+        
+        ficheros:
+            * pyqt_example1.py
+    
+    Ejemplo 2:
+        Un programa que carga un formulario desde UI, independientemente de
+        cual sea la carpeta de trabajo actual:
+        
+        ficheros:
+            * pyqt_example2.py
+            * example2.ui
+            
+
+        

@@ -1,0 +1,58 @@
+Para JSON-RPC usaremos la librería "bjsonrpc" que es bastante más sencilla de
+usar que la mayoría que existen.
+
+Para descargarla:
+
+    $ git clone git://github.com/deavid/bjsonrpc
+
+Una vez descargado, para instalar ejecutamos:
+
+    $ sudo python setup.py install
+
+
+La página web del proyecto es:
+http://deavid.github.com/bjsonrpc/
+
+La documentación la podéis encontrar aquí:
+http://deavid.github.com/bjsonrpc/htmldocs/index.html
+
+El tutorial original lo tenéis en inglés aquí:
+http://deavid.github.com/bjsonrpc/htmldocs/tutorial1/index.html
+
+Para ejecutar todos los ejemplos de RPC, obviamente vamos a necesitar dos
+terminales distintas, ya que tenemos que lanzar paralelamente un servidor y un
+cliente.
+
+Ejemplo 1
+---------------
+
+Es un ejemplo muy básico de servidor y cliente mínimos. Crea un servidor RPC 
+que nos provee de un servicio de cronómetro. Desde el cliente comprobamos el 
+correcto funcionamiento, encendiendo y apagando el cronómetro remotamente
+y revisando que la salida de la función lapse() sea coherente con las llamadas
+que hacemos.
+
+Programas:
+	* rpc_example1_client.py (Programa cliente)
+	* rpc_example1_server.py (Programa servidor)
+
+
+Ejemplo 2
+---------------
+Es un programa bastante más avanzado que consta de un servidor y cliente de
+chat con protocolo propio. Sigue siendo bastante sencillo ya que la suma
+de los dos programas no llega a las 500 líneas.
+
+Imágenes:
+	* people.png
+	* user.png
+Formularios:
+	* example2_chat.ui
+	* example2_connection.ui
+Programas:
+	* rpc_example2_client.py (Programa cliente)
+	* rpc_example2_server.py (Programa servidor)
+	
+
+
+
